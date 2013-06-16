@@ -12,7 +12,7 @@ CLEAR = "%s%d%s" %( ESC_O, 0, ESC_C );
 FG = "3";
 BG = "4";
 NORMAL = "22";
-BOLD = "2";
+BOLD = "1";
 
 def cnum(c):
     if c in COLORS:
@@ -40,11 +40,10 @@ def mkcolor(fg, bg, attr=""):
 # display a grid of all possible combinations, with both bold and regular
 if __name__ == "__main__":
     outstr = CLEAR;
-    for bg in COLORS:
-        for fg in COLORS:
-            t = [ mkcolor(fg, bg, NORMAL), " # ",
-                    CLEAR, " ",
-                    mkcolor(fg, bg, BOLD), " # ",
+    for fg in COLORS:
+        for bg in COLORS:
+            t = [ mkcolor(fg, bg, NORMAL), " .:#",
+                    mkcolor(fg, bg, BOLD), "#:. ",
                     CLEAR, "  " ];
 
             outstr += "".join(t);
