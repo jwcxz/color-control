@@ -34,7 +34,7 @@ $ extract-colors -t linuxterm example.svg
 You can then throw those anywhere you want, e.g. in your
 `~/.{bash,zsh,whatever}rc`.  I recommend something like this:
 
-```shell
+```bash
 if [ "$TERM" = "linux" ]; then
     # borrowed from http://code.google.com/p/fbterm/
 	# output of extract-colors here
