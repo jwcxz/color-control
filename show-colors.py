@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 COLOR_CODES = ['black', 'red', 'green', 'brown', 'blue', 'magenta', 'cyan', 'white', None, 'default'];
 COLORS = [ c for c in COLOR_CODES if c != None ];
