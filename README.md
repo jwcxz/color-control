@@ -1,7 +1,10 @@
 Color Control
 =============
 
-Here are a few utilities for dealing with terminal colors.
+Here are a few utilities for dealing with terminal colors.  I started writing
+them because I was bored on a plane flight.  I wanted a way to easily design
+color palettes and since I didn't have access to the internet, I couldn't get
+to the [4bit designer], which is also a great tool.
 
 
 ## Extracting colors from an SVG graphic palette.
@@ -44,3 +47,7 @@ fi
 
 `show-colors` is yet another utility to display your available palette.
 It's pretty self explanatory.  Just run it.
+
+
+
+[4bit designer]:http://ciembor.github.io/4bit/
