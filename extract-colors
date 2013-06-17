@@ -77,7 +77,7 @@ def gen_linuxterm(colors):
 
     for c in colors:
         if c in mapping:
-            l = "echo -en \"\\eP%X%s\"  # %s" % (mapping.index(c), colors[c], c);
+            l = "echo -en \"\\e]P%X%s\"  # %s" % (mapping.index(c), colors[c], c);
             lines.append((mapping.index(c), l));
 
     lines.sort();
