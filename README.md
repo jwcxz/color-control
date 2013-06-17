@@ -6,7 +6,7 @@ them because I was bored on a plane flight.  I wanted a way to easily design
 color palettes and since I didn't have access to the internet, I couldn't get
 to the [4bit designer], which is also a great tool.
 
-![screenshot](http://jwcxz.com/projects/bt/pics/screenshot.png)
+![screenshot](http://jwcxz.com/projects/color-control/screenshot.png)
 
 
 ## Extracting colors from an SVG graphic palette.
